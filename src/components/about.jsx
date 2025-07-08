@@ -1,5 +1,5 @@
 import React from "react";
-// my first project
+// my first project. one of
 const About = () => (
   <section id="about" className="w-full py-4 bg-gray-50">
     <div className="container w-screen mx-auto py-4 px-10 text-center">
