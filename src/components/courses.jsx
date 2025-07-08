@@ -5,7 +5,7 @@ const courses = [
   {
     title: "Beginner Mridangam",
     desc: "Start your journey with the basics of rhythm and technique.",
-    path: "/courses/beginner",
+    path: "/courses/BeginnerCourse",
   },
   {
     title: "Intermediate Mridangam",
