@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "start": "npm run dev",
+    "start": "cd backend && npm start",
     "frontend": "vite",
     "backend": "cd backend && npm run dev",
-    "build": "vite build && npm run build:copy",
+    "build": "npm run install-all && vite build && npm run build:copy",
     "build:copy": "cp -r dist backend/public",
     "build:prod": "npm run build && cd backend && npm start",
     "lint": "eslint .",
