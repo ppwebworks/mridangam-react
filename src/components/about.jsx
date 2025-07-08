@@ -1,13 +1,15 @@
 import React from "react";
-
+// my first project
 const About = () => (
   <section id="about" className="w-full py-4 bg-gray-50">
     <div className="container w-screen mx-auto py-4 px-10 text-center">
       <h2 className="text-3xl font-bold text-red-600">About Us</h2>
       <p className="text-base py-2 text-justify w-full mx-auto">
         Mridangam Academy is dedicated to teaching the traditional South Indian
-        percussion instrument, Mridangam, through online classes. We offer Mridagam as well as traditional Khanjira classes. Also we offer Khanjira training to learn how to play Khanjira for Sai Bhajan. Our mission is
-        to make high-quality music education accessible to everyone, everywhere.
+        percussion instrument, Mridangam, through online classes. We offer
+        Mridagam as well as traditional Khanjira classes. Also we offer Khanjira
+        training to learn how to play Khanjira for Sai Bhajan. Our mission is to
+        make high-quality music education accessible to everyone, everywhere.
       </p>
 
       <h2 className="text-3xl font-bold pt-10 text-red-600">About Mridangam</h2>
