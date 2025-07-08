@@ -1,12 +1,45 @@
-# React + Vite
+# Mridangam Academy - Full Stack Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete mridangam learning platform with React frontend and Express backend.
 
-Currently, two official plugins are available:
+## Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install all dependencies:
+```bash
+npm run install-all
+```
 
-## Expanding the ESLint configuration
+2. Set up environment variables:
+   - Copy `backend/.env.example` to `backend/.env`
+   - Add your MongoDB connection string
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Start the application:
+```bash
+npm start
+```
+
+This will launch both:
+- Frontend (React + Vite) on http://localhost:5173
+- Backend (Express API) on http://localhost:3001
+
+## Development
+
+- `npm start` - Run both frontend and backend
+- `npm run frontend` - Run only frontend
+- `npm run backend` - Run only backend
+- `npm run build` - Build for production
+- `npm run build:prod` - Build and start production server
+
+## Production
+
+1. Build the application:
+```bash
+npm run build
+```
+
+2. Start production server:
+```bash
+cd backend && npm start
+```
+
+The production server runs on http://localhost:3001 and serves both the React app and API.

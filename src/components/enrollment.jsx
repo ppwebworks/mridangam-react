@@ -27,7 +27,7 @@ const Enrollment = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/enrollments", {
+      const response = await fetch("http://localhost:3001/api/enrollments", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
